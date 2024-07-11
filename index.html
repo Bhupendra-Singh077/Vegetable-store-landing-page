@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Vegetable Shop Landing Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-content">
+        <a href="#home-section">
+          <img
+            src="images/icon.png"
+            alt="Company Logo"
+            id="header-img"
+        /></a>
+        <nav id="nav-bar">
+            <a href="#home-section" class="nav-link">HOME</a>
+          <a href="#about" class="nav-link">ABOUT</a>
+          <a href="#varieties" class="nav-link">VARIETIES</a>
+          <a href="#our-service" class="nav-link">OUR SERVICE</a>
+          <a href="#contact" class="nav-link">CONTACT</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home-section" class="flexible home-section">
+        <div class="home-content-img">
+          <img src="images/home-images.png" alt="Image of Apples" />
+        </div>
+        <div class="home-content">
+          <h1>Fresh, delicious, Heavenly.</h1>
+          <h2>
+            Feeling fresh and green with this veggie-filled plate.
+          </h2>
+          <button class="btn" onclick="window.location.href = '#contact';">
+            Buy Now
+          </button>
+        </div>
+      </section>
+      <section id="about" class="section-padding">
+        <h3 class="section-heading">ABOUT US</h3>
+        <div class="section-content flexible">
+          <p>
+            We are a group of people with decades of experience in growing and
+            selling apples. We know what a good apple looks like and how they
+            are grown. This essential fruit requires a temperate climate, loamy
+            soil that is rich in organic matter apart from needing proper
+            drainage and aeration facilities. Lucky for us we live in Kashmir
+        
+          </p>
+          <img src="images/about.jpg" style="width: 100%;" alt="A man plucking apples from the tree" />
+        </div>
+      </section>
+      <section id="varieties" class="section-padding">
+        <h3 class="section-heading">VARIETIES</h3>
+        <div class="section-content flexible">
+          <div class="tile">
+            <img src="images/ver1.png" alt=".." />
+            <h4>Amber</h4>
+            <p>
+                Who's up for a veggie challenge? Let's see who can create the most colorful salad!
+            </p>
+          </div>
+          <div class="tile">
+            <img
+              src="images/ver2.png"
+              alt=".."
+            />
+            <h4>American Trel</h4>
+            <p>
+                Spill the beans: what's your secret ingredient for adding flavor to veggies?
+            </p>
+          </div>
+          <div class="tile">
+            <img src="images/ver3.png" alt=".." />
+            <h4>Red Delicious</h4>
+            <p>
+                You know I'm all about that baste, 'bout that baste, no trouble. I'm all about that kale, 'bout that kale, no stubble.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="images/ver4.png" alt=".." />
+            <h4>Maharaej</h4>
+            <p>
+                You know I'm all about that baste, 'bout that baste, no trouble. I'm all about that kale, 'bout that kale, no stubble.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="images/ver4.png" alt=".." />
+            <h4>Hazratbael</h4>
+            <p>
+              A quickly perishable variety that ripens in early July. It is the
+              oldest variety of apples cultivated in the valley and is mostly
+              consumed domestically
+            </p>
+          </div>
+          <div class="tile">
+            <img src="images/ver5.png" alt=".." />
+            <h4>Golden Delicious</h4>
+            <p>
+              A variety with comparatively longer shelf life, it is crispy,
+              juicy and has thick greenish-white flesh which turns golden upon
+              ripening. It is available till January.
+            </p>
+          </div>
+        </div>
+
+      </section>
+      <section id="our-service" class="section-padding">
+        <h3 class="section-heading">OUR SERVICE</h3>
+        <div class="section-content">
+          <div class="bars">
+            <div class="icon-container">
+              <img src="images/Fresh.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Fresh</h5>
+              <p>We deliver fresh apples with a 100% guarantee of freshness.</p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="images/delivered.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Fast & Secure</h5>
+              <p>
+                We deliver your orders as fast as possible, delivery procedure
+                begins as soon as apple is plucked from tree.
+              </p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="images/happy.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Satisfying</h5>
+              <p>
+                We guarantee 100% customer satisfaction. We do our best to make
+                your purchase experience smooth. But if we mess up somehow you
+                will get compensated for every inconvenience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="section-padding" id="contact">
+        <h3 class="section-heading">CONTACT</h3>
+        <div class="section-content flexible">
+          <h6>To make an order or just to know more contact us :</h6>
+          <form
+            id="form"
+            action="https://www.freecodecamp.com/email-submit"
+            method="POST"
+          >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email Address"
+              required
+            />
+            <input type="submit" class="btn" id="submit" value="Know More" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      Created by
+      <a href="#">vegetable store</a>
+    </footer>
+  </body>
+</html>
